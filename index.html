@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+
+    <script>
+      const firebaseConfig = {
+  apiKey: "AIzaSyCp5Bn2RzaW_gtqzVWY4yyuZOdlDM6T5iE",
+  authDomain: "car-racing-game-7d161.firebaseapp.com",
+  databaseURL: "https://car-racing-game-7d161-default-rtdb.firebaseio.com",
+  projectId: "car-racing-game-7d161",
+  storageBucket: "car-racing-game-7d161.appspot.com",
+  messagingSenderId: "304815518034",
+  appId: "1:304815518034:web:c656ef9a38a86a5e238a8b"
+};
+firebase.initializeApp(firebaseConfig)
+    </script>
+  </head>
+  <body>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
